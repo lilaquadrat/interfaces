@@ -1,0 +1,1 @@
+export type AvailableStorageTypes = 'mock'|'azureBlob'|'azureStorage'|'filesystem';

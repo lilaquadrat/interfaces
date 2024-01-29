@@ -1,0 +1,28 @@
+{
+  "name": "@lilaquadrat/interfaces",
+  "version": "0.0.1",
+  "description": "interfaces in context of lilaquadrat STUDIO",
+  "author": "mschuebel <m.schuebel@lila2.de>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsc && node helper.js esm && tsc -p tsconfig.cjs.json && node helper.js cjs"
+  },
+  "main": "lib/cjs/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "module": "lib/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/esm/index.d.ts",
+      "require": "./lib/cjs/index.js"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.9",
+    "mongodb": "^5.7.0"
+  }
+}

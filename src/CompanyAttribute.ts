@@ -1,0 +1,1 @@
+export type CompanyAttribute = 'partner' | 'admin' | 'previewInternal' | 'previewPublic';
