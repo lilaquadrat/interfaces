@@ -1,6 +1,6 @@
 {
   "name": "@lilaquadrat/interfaces",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "interfaces in context of lilaquadrat STUDIO",
   "author": "mschuebel <m.schuebel@lila2.de>",
   "license": "MIT",
@@ -8,7 +8,9 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "build": "tsc && node helper.js esm && tsc -p tsconfig.cjs.json && node helper.js cjs"
+    "build": "tsc && node helper.js esm && tsc -p tsconfig.cjs.json && node helper.js cjs",
+    "prepublish": "tsc && node helper.js esm && tsc -p tsconfig.cjs.json && node helper.js cjs",
+    "release": "standard-version"
   },
   "main": "lib/cjs/index.js",
   "publishConfig": {
@@ -26,5 +28,10 @@
     "cz-conventional-changelog": "^3.3.0",
     "mongodb": "^5.7.0",
     "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
