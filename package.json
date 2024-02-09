@@ -2,7 +2,11 @@
   "name": "@lilaquadrat/interfaces",
   "version": "1.0.2",
   "description": "interfaces in context of lilaquadrat STUDIO",
-  "author": "mschuebel <m.schuebel@lila2.de>",
+  "author": {
+    "email": "m.schuebel@lila2.de",
+    "name": "Mathias Schübel",
+    "url": "https://lilaquadrat.de"
+  },
   "license": "MIT",
   "dependencies": {
     "typescript": "^5.3.3"
@@ -25,6 +29,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.9",
+    "ajv": "^8.12.0",
     "cz-conventional-changelog": "^3.3.0",
     "mongodb": "^5.7.0",
     "standard-version": "^9.5.0"
