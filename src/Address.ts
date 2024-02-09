@@ -5,5 +5,6 @@ export interface Address {
     zipcode?: string;
     city?: string;
     country?: string;
+    country_name?: string
     addressAddition?: string;
 }
