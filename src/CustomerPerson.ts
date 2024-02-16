@@ -1,3 +1,4 @@
+import CustomerAccounts from "./CustomerAccounts"
 import { CustomerBase } from "./CustomerBase"
 
 export interface CustomerPerson extends CustomerBase {
@@ -8,5 +9,7 @@ export interface CustomerPerson extends CustomerBase {
 
   // birthday?: Date
   gender?: 'm' | 'w' | 'd'
+
+  accounts?: CustomerAccounts[]
 
 }
