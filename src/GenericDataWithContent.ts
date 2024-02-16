@@ -6,10 +6,7 @@ import { List } from "./List";
 import { Media } from "./Media";
 
 type GenericDataWithContent = {
-    [key in CompatibleGenericDataType]: string[]
-} & {
-    data: Record<string, BasicData<Content | List | Customers | Media>>
+    [key in CompatibleGenericDataType]: Record<string, BasicData<Content | List | Customers | Media>>
 }
-
 
 export { GenericDataWithContent };
