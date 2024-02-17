@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/lilaquadrat/interfaces/compare/v1.3.0...v1.3.1) (2024-02-17)
+
+
+### Bug Fixes
+
+* **customeraccounts:** fixed customerAccounts export ([7e8ef83](https://github.com/lilaquadrat/interfaces/commit/7e8ef83c5750dc5d75f17b2bd68211c0316e08b9))
+
 ## [1.3.0](https://github.com/lilaquadrat/interfaces/compare/v1.2.0...v1.3.0) (2024-02-16)
 
 
