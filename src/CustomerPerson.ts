@@ -1,4 +1,4 @@
-import CustomerAccounts from "./CustomerAccounts"
+import { CustomerAccounts } from "./CustomerAccounts"
 import { CustomerBase } from "./CustomerBase"
 
 export interface CustomerPerson extends CustomerBase {

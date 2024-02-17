@@ -1,4 +1,4 @@
-export default interface CustomerAccounts {
+export interface CustomerAccounts {
     account: string
     project: string
     app: string
