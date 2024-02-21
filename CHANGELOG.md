@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/lilaquadrat/interfaces/compare/v1.3.1...v1.4.0) (2024-02-21)
+
+
+### Features
+
+* **mepermissions & content:** added target to content and added me permissions ([bb6141f](https://github.com/lilaquadrat/interfaces/commit/bb6141f3425f370a0de0baf669ce1ae97d90a721))
+
 ### [1.3.1](https://github.com/lilaquadrat/interfaces/compare/v1.3.0...v1.3.1) (2024-02-17)
 
 
