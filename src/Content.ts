@@ -14,6 +14,7 @@ export interface Content {
   layout?: boolean
   state: 'draft' | 'publish'
   language?: string
+  target?: 'browser' | 'mail'
   settings: {
     url?: string
     useLayout?: ObjectId
