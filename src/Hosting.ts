@@ -1,4 +1,6 @@
-export interface Hosting {
+import { AppHostingSettings } from "./AppHostingSettings";
+
+export interface Hosting extends AppHostingSettings {
   project: string;
   company: string;
 
