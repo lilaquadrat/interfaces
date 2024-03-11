@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/lilaquadrat/interfaces/compare/v1.5.0...v1.6.0) (2024-03-11)
+
+
+### Features
+
+* **publish methods:** added support for publish methods ([2487872](https://github.com/lilaquadrat/interfaces/commit/248787278607722f9a7f0dbc35669c8707f5b029))
+
 ## [1.5.0](https://github.com/lilaquadrat/interfaces/compare/v1.4.0...v1.5.0) (2024-02-23)
 
 
