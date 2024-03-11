@@ -1,9 +1,10 @@
-import {Content} from "./Content"
+import { ObjectId } from "mongodb"
+import { Content } from "./Content"
 import { PublishContentGroup } from "./PublishContentGroup"
 
 export interface PublishMethod {
 
-  type: 'ftp' | 'webhook' | 'internal' | 'pdf'
+  type: 'ftp' | 'webhook' | 'internal' | 'pdf' | 'email'
 
   active: boolean
 
@@ -12,6 +13,8 @@ export interface PublishMethod {
   availableForApps: string[]
 
   availableForContentGroups: PublishContentGroup[]
+
+  contextData: ObjectId[]
 
   affectedStates?: Content['state'][]
 

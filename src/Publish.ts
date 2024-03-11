@@ -40,4 +40,6 @@ export interface Publish {
     modelPublish?: string
   
     publishData?: {id: number | string, name?: string}
+
+    recipient?: ObjectId;
   }
