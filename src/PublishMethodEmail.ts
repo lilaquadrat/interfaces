@@ -4,4 +4,6 @@ export interface PublishMethodEmail extends PublishMethod {
 
   type: 'email'
 
+  mailFrom: string
+
 }
