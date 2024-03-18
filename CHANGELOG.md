@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/lilaquadrat/interfaces/compare/v1.6.0...v1.7.0) (2024-03-18)
+
+
+### Features
+
+* **mailfrom:** added support for mailFrom ([c0eb5f8](https://github.com/lilaquadrat/interfaces/commit/c0eb5f87a85cbace9551d84f37f4afb11c357339))
+
 ## [1.6.0](https://github.com/lilaquadrat/interfaces/compare/v1.5.0...v1.6.0) (2024-03-11)
 
 
