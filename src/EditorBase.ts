@@ -4,4 +4,5 @@ export interface EditorBase {
   type: 'app' | 'server'
   date: Date
   custom?: boolean
+  version: string
 }
