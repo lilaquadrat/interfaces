@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/lilaquadrat/interfaces/compare/v1.7.0...v1.8.0) (2024-03-26)
+
+
+### Features
+
+* **editorbase:** added version to editorBase ([b0b7c56](https://github.com/lilaquadrat/interfaces/commit/b0b7c56bb8d1d75cfc88b725deaad9f64b273747))
+
 ## [1.7.0](https://github.com/lilaquadrat/interfaces/compare/v1.6.0...v1.7.0) (2024-03-18)
 
 
