@@ -1,9 +1,10 @@
 import { ObjectId } from "mongodb";
 import {Agreement} from "./Agreement";
 import { ListCategory } from "./ListCategory";
+import { ListContent } from "./ListContent";
 
 export interface List {
-    _id?: ObjectId;
+    _id?: ObjectId
   
     company: string
     project: string
@@ -31,4 +32,6 @@ export interface List {
     agreements: Agreement[]
   
     categories: ListCategory[]
+
+    content: ListContent
   }
