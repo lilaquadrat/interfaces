@@ -9,5 +9,6 @@ export interface Me {
   state?: string[]
   settings?: Settings['settings']
   termsAccepted?: boolean
+  emailConfirmed?: boolean
 
 }

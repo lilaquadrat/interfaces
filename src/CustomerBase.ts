@@ -5,6 +5,10 @@ export interface CustomerBase {
   id?: string
 
   email?: string
+
+  emailConfirmed?: boolean
+
+  emailConfirmationCode?: string
   /** for better sorting name will be used as lastname for persons */
   name: string
 

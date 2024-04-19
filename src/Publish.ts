@@ -2,10 +2,11 @@ import { ObjectId } from "mongodb"
 import { PublishMethod } from "./PublishMethod"
 import {PublishResult} from "./PublishResult"
 import {PublishResultStatistics} from "./PublishResultStatistics"
+import { ObjectIdString } from "./ObjectIdString"
 
 export interface Publish {
     referenceId?: ObjectId
-    method: ObjectId
+    method: ObjectIdString
   
     publishMethod?: {
       label: PublishMethod['label']
@@ -41,5 +42,5 @@ export interface Publish {
   
     publishData?: {id: number | string, name?: string}
 
-    recipient?: ObjectId;
+    recipient?: ObjectIdString;
   }

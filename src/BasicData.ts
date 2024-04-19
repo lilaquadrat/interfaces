@@ -21,3 +21,4 @@ export type BasicData<T> = T & {
   };
 
 }
+
