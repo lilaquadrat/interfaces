@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/lilaquadrat/interfaces/compare/v1.9.0...v1.10.0) (2024-04-19)
+
+
+### Features
+
+* **email confirmation, list email content:** added emails to list, email confirmation to customers ([bcc84b5](https://github.com/lilaquadrat/interfaces/commit/bcc84b5eca98a7d29f2aa4704c0b221569cdcada))
+
 ## [1.9.0](https://github.com/lilaquadrat/interfaces/compare/v1.8.0...v1.9.0) (2024-04-11)
 
 
