@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/lilaquadrat/interfaces/compare/v1.10.0...v1.11.0) (2024-04-24)
+
+
+### Features
+
+* **customer model:** added setEmailConfirmationCode ([7c9b8e7](https://github.com/lilaquadrat/interfaces/commit/7c9b8e7f913d9854cfd0d2f4959572156c3c9f66))
+
 ## [1.10.0](https://github.com/lilaquadrat/interfaces/compare/v1.9.0...v1.10.0) (2024-04-19)
 
 
