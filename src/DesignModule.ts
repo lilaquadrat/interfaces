@@ -11,5 +11,6 @@ export interface DesignModule {
     modes: EditorMode[]
   },
   variants: AvailableVariant[],
+  additionalData?: Record<string, unknown>
   component: () => void
 }
