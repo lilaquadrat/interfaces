@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/lilaquadrat/interfaces/compare/v1.11.0...v1.12.0) (2024-05-17)
+
+
+### Features
+
+* **designmodule:** extended DesignModul with additionalData ([84db2dc](https://github.com/lilaquadrat/interfaces/commit/84db2dc97d3c497b4429ab8143183aafeba4ef40))
+
+
+### Bug Fixes
+
+* **responseerror:** fixed response error, change to correct array format ([66f2dac](https://github.com/lilaquadrat/interfaces/commit/66f2dac1e84f7721655ed58a699a3fc44cdbd3c6))
+
 ## [1.11.0](https://github.com/lilaquadrat/interfaces/compare/v1.10.0...v1.11.0) (2024-04-24)
 
 
