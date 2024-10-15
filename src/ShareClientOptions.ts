@@ -1,7 +1,8 @@
 
 export interface ShareClientOptions {
-  connectionString: string;
-  container?: string;
-  shareName?: string;
-  baseFolder?: string;
+  connectionString: string
+  container?: string
+  shareName?: string
+  baseFolder?: string
+  accountName?: string
 }
