@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://github.com/lilaquadrat/interfaces/compare/v1.12.0...v1.13.0) (2024-10-15)
+
+
+### Features
+
+* **shareclientoptions:** added support for accountName ([8ca9aa7](https://github.com/lilaquadrat/interfaces/commit/8ca9aa7212613e6cba2877af8c2952c98778a312))
+
 ## [1.12.0](https://github.com/lilaquadrat/interfaces/compare/v1.11.0...v1.12.0) (2024-05-17)
 
 
