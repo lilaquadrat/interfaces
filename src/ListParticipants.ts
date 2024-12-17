@@ -1,5 +1,6 @@
 import { ObjectId } from "mongodb"
 import {AgreementResponse} from "./AgreementResponse"
+import { ListItem } from "./ListItem"
 
 export interface ListParticipants {
   _id?: ObjectId
@@ -24,15 +25,49 @@ export interface ListParticipants {
 
   explanation?: string
 
-  /*
-  enlisted = customer has joined the list, but the owner did not confirm it
-  confirmed = customer has joined the list and the owner did confirm it or the list does not required confirmation
-  reserved = It implies that the customer has successfully secured a place on the list and is awaiting further instructions or actions.
-  waiting = customer has joined the list and waits on action from the owner
-  blocked = customer is not part of the list and cant join it
-  finalized = the list entry has fulfilled his purpose and no further action is required
+  /**
+  ```enlisted```
+
+   customer has joined the list, but the owner did not confirm it
+
+  ```confirmed``` 
+  
+  customer has joined the list and the owner did confirm it or the list does not required confirmation
+  
+  ```reserved```
+  
+  It implies that the customer has successfully secured a place on the list and is awaiting further instructions or actions.
+ 
+  ```waiting```
+  
+  customer has joined the list and waits on action from the owner
+  
+  ```blocked```
+  
+  customer is not part of the list and cant join it
+  
+  ```finalized```
+  
+  the list entry has fulfilled his purpose and no further action is required
+  
+  ```notuseful```
+  
+  spam check has failed
+  
+  ```unchecked```
+  
+  spam check not concluded
+  
+  ```paid```
+  
+  payment webhook confirmed
   */
-  state: 'unchecked' | 'notuseful' | 'confirmed' | 'enlisted' | 'reserved' | 'waiting' | 'blocked' | 'finalized'
+  state: 'unchecked' | 'paid' | 'notuseful' | 'confirmed' | 'enlisted' | 'reserved' | 'waiting' | 'blocked' | 'finalized'
   agreements: AgreementResponse[]
+  items?: ListItem[]
+  /**
+   * if the participants came from a payment webhook paid will have the amount of the whole payment
+   */
+  paid?: number
 
 }

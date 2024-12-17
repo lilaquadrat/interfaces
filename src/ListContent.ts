@@ -14,4 +14,7 @@ export interface ListContent {
 
     // the usage/event is fulfilled
     post: string
+
+    // the uses has paid via paymeny provider
+    paid: string
 }

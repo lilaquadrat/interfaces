@@ -12,12 +12,12 @@ export interface List {
   
     name: string
     description?: string
-    mode: 'contact' | 'content' | 'reservation'
+    mode: 'contact' | 'content' | 'reservation' | 'shopping'
   
     start?: Date
     end?: Date
   
-    payment: 'optional' | 'required' | 'free'
+    payment?: 'optional' | 'required' | 'free'
   
     participants?: {
       max?: number
@@ -26,15 +26,16 @@ export interface List {
       available?: number
       unique?: boolean
       addressRequired?: boolean
+      totalPaid?: number
     }
   
     state: 'open' | 'closed' | 'waiting'
   
     agreements: Agreement[]
   
-    categories: ListCategory[]
+    categories?: ListCategory[]
 
-    content: ListContent
+    content?: ListContent
 
     emails: EmailsContent
   }
