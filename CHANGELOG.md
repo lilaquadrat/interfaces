@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.14.0](https://github.com/lilaquadrat/interfaces/compare/v1.13.0...v1.14.0) (2024-12-17)
+
+
+### Features
+
+* **design customs & list:** design Custom Modules, Design Event, extended Lists ([1d079fe](https://github.com/lilaquadrat/interfaces/commit/1d079fec690f7c0fdede51c2b290968c1ecc77ae))
+
 ## [1.13.0](https://github.com/lilaquadrat/interfaces/compare/v1.12.0...v1.13.0) (2024-10-15)
 
 
