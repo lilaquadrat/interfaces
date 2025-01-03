@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://github.com/lilaquadrat/interfaces/compare/v1.14.1...v1.15.0) (2025-01-03)
+
+
+### Features
+
+* **customerminimal & payment:** added customerMinimal and payment ([2d34012](https://github.com/lilaquadrat/interfaces/commit/2d340121c04579d593729239d4708e0e5e2cf717))
+
 ### [1.14.1](https://github.com/lilaquadrat/interfaces/compare/v1.14.0...v1.14.1) (2024-12-28)
 
 ## [1.14.0](https://github.com/lilaquadrat/interfaces/compare/v1.13.0...v1.14.0) (2024-12-17)
