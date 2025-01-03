@@ -1,4 +1,5 @@
 import Auth0ProjectSettings from "./Auth0ProjectSettings"
+import ShopifyProjectSettings from "./ShopifyProjectSettings"
 
 export interface Project {
 
@@ -10,5 +11,6 @@ export interface Project {
   apps?: string[]
 
   auth0?: Auth0ProjectSettings
+  shopify?: ShopifyProjectSettings
 
 }

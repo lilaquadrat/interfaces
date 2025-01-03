@@ -1,6 +1,5 @@
 import { ObjectId } from "mongodb"
 import {AgreementResponse} from "./AgreementResponse"
-import { ListItem } from "./ListItem"
 
 export interface ListParticipants {
   _id?: ObjectId
@@ -64,10 +63,9 @@ export interface ListParticipants {
   */
   state: 'unchecked' | 'paid' | 'notuseful' | 'confirmed' | 'enlisted' | 'reserved' | 'waiting' | 'blocked' | 'finalized'
   agreements: AgreementResponse[]
-  items?: ListItem[]
   /**
    * if the participants came from a payment webhook paid will have the amount of the whole payment
    */
-  paid?: number
+  payment?: ObjectId
 
 }
