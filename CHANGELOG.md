@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.16.0](https://github.com/lilaquadrat/interfaces/compare/v1.15.0...v1.16.0) (2025-01-05)
+
+
+### Features
+
+* **paymentprovider:** added paymentProviders interfaced and updated mongodb ([0437ae9](https://github.com/lilaquadrat/interfaces/commit/0437ae97d4a0c737564219868d495e23fbfe5d1b))
+
 ## [1.15.0](https://github.com/lilaquadrat/interfaces/compare/v1.14.1...v1.15.0) (2025-01-03)
 
 
