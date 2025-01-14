@@ -1,8 +1,7 @@
-import { Command } from "./Command";
+import { CommandNginx } from "./CommandNginx";
 
 export interface HostingCommand {
-  target: 'nginx' | 'docker';
-  command: Command<HostingCommand['target']>;
+  command: CommandNginx;
   date: Date;
   state: 'new' | 'inProgress' | 'success' | 'error';
   data: { [key: string]: any };
@@ -10,7 +9,6 @@ export interface HostingCommand {
   company?: string;
   project?: string;
   after?: {
-    target: 'nginx' | 'docker';
-    command: Command<HostingCommand['target']>;
+    command: CommandNginx;
   };
 }
