@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.17.0](https://github.com/lilaquadrat/interfaces/compare/v1.16.0...v1.17.0) (2025-01-14)
+
+
+### Features
+
+* **nginx command:** added support for nginx command, remove docker commands ([1eba7b5](https://github.com/lilaquadrat/interfaces/commit/1eba7b566b95f0b3f4cb2faf00ff971fc6d70a2f))
+
 ## [1.16.0](https://github.com/lilaquadrat/interfaces/compare/v1.15.0...v1.16.0) (2025-01-05)
 
 
