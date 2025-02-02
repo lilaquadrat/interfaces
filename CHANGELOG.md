@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.18.0](https://github.com/lilaquadrat/interfaces/compare/v1.17.0...v1.18.0) (2025-02-02)
+
+
+### Features
+
+* **exportdata, importjob:** added import and export interfaces ([908a741](https://github.com/lilaquadrat/interfaces/commit/908a74116d244253ac19363435cf4aadf452aa13))
+
+
+### Bug Fixes
+
+* **exportdata:** made keys optional ([5abadb6](https://github.com/lilaquadrat/interfaces/commit/5abadb6c3fc369dad454a824aeba64d65cce5b3b))
+
 ## [1.17.0](https://github.com/lilaquadrat/interfaces/compare/v1.16.0...v1.17.0) (2025-01-14)
 
 
