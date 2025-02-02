@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.18.1](https://github.com/lilaquadrat/interfaces/compare/v1.18.0...v1.18.1) (2025-02-02)
+
+
+### Bug Fixes
+
+* **hostingcommand:** fixed hosting command for current hosting implementation ([6e5fc95](https://github.com/lilaquadrat/interfaces/commit/6e5fc95d7259060645ccc7252cad57be0d8daef5))
+
 ## [1.18.0](https://github.com/lilaquadrat/interfaces/compare/v1.17.0...v1.18.0) (2025-02-02)
 
 
