@@ -1,7 +1,7 @@
-import type { ObjectId } from "mongodb"
 import { ChildData } from "./ChildData"
 import { GenericData } from "./GenericData"
 import { ModuleGeneric } from "./ModuleGeneric"
+import { ObjectIdString } from "./ObjectIdString"
 
 export interface Content {
   id: string
@@ -17,7 +17,7 @@ export interface Content {
   target?: 'browser' | 'mail'
   settings: {
     url?: string
-    useLayout?: ObjectId
+    useLayout?: ObjectIdString
     title?: string
     description?: string
     noSSR?: boolean

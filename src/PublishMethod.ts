@@ -1,6 +1,6 @@
-import { ObjectId } from "mongodb"
 import { Content } from "./Content"
 import { PublishContentGroup } from "./PublishContentGroup"
+import { ObjectIdString } from "./ObjectIdString"
 
 export interface PublishMethod {
 
@@ -14,7 +14,7 @@ export interface PublishMethod {
 
   availableForContentGroups: PublishContentGroup[]
 
-  contextData: ObjectId[]
+  contextData: ObjectIdString[]
 
   affectedStates?: Content['state'][]
 

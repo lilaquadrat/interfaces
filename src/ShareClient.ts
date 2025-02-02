@@ -29,7 +29,7 @@ export interface ShareClientInterface {
 
   get(folder: string, filename: string): Promise<Buffer>;
 
-  list(folder: string, filter: RegExp): Promise<string[]>;
+  list(folder: string, filter: RegExp, options?: {fullPath?: boolean}): Promise<string[]>;
 
   copy(files: string[], sourceFolder: string, destinationFolder: string): Promise<boolean>;
 
