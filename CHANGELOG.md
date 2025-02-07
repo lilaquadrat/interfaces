@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.19.0](https://github.com/lilaquadrat/interfaces/compare/v1.18.1...v1.19.0) (2025-02-07)
+
+
+### Features
+
+* **customerimportresult:** added customerimportresult ([f3bf329](https://github.com/lilaquadrat/interfaces/commit/f3bf3296038f4ea30cbb8894f1c62a21af981470))
+
 ### [1.18.1](https://github.com/lilaquadrat/interfaces/compare/v1.18.0...v1.18.1) (2025-02-02)
 
 
