@@ -37,5 +37,5 @@ export interface List {
 
     content?: ListContent
 
-    emails: EmailsContent
+    emails?: EmailsContent[]
   }

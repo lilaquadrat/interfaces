@@ -1,11 +1,11 @@
+import { ListParticipants } from "./ListParticipants"
+import { ObjectIdString } from "./ObjectIdString"
+
 export interface EmailsContent {
 
-    // the user is reserved but not confirmed
-    waiting: string
+    contentId: ObjectIdString
 
-    // the user is confirmed
-    active: string
+    audience: 'public' | 'members'
 
-    // the usage/event is fulfilled
-    post: string
+    affectedState: ListParticipants['state']
 }
