@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](https://github.com/lilaquadrat/interfaces/compare/v1.19.0...v1.20.0) (2025-03-10)
+
+
+### Features
+
+* **list & emailscontent:** refactored emailsContent ([6a96a3f](https://github.com/lilaquadrat/interfaces/commit/6a96a3f8d180c0d09731c208a1fffb72655dcb50))
+
 ## [1.19.0](https://github.com/lilaquadrat/interfaces/compare/v1.18.1...v1.19.0) (2025-02-07)
 
 
