@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.21.0](https://github.com/lilaquadrat/interfaces/compare/v1.20.0...v1.21.0) (2025-03-21)
+
+
+### Features
+
+* **structures:** added structures types ([1523e11](https://github.com/lilaquadrat/interfaces/commit/1523e11894954e99096528a122b8550aa57ae80f))
+
 ## [1.20.0](https://github.com/lilaquadrat/interfaces/compare/v1.19.0...v1.20.0) (2025-03-10)
 
 
