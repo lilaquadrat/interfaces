@@ -1,4 +1,6 @@
-export interface CustomerBase {
+import { WithStructures } from "./WithStructures"
+
+export interface CustomerBase extends WithStructures {
 
   type?: 'person' | 'company'
 

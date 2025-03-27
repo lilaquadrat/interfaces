@@ -1,7 +1,8 @@
 import { ObjectId } from "mongodb"
-import {AgreementResponse} from "./AgreementResponse"
+import { AgreementResponse } from "./AgreementResponse"
+import { WithStructures } from "./WithStructures"
 
-export interface ListParticipants {
+export interface ListParticipants extends WithStructures {
   _id?: ObjectId
 
   list: ObjectId
@@ -67,5 +68,4 @@ export interface ListParticipants {
    * if the participants came from a payment webhook paid will have the amount of the whole payment
    */
   payment?: ObjectId
-
 }
