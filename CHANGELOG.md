@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.25.0](https://github.com/lilaquadrat/interfaces/compare/v1.24.0...v1.25.0) (2025-04-01)
+
+
+### Features
+
+* **cart:** update payment property type in Cart interface to ObjectId ([d26fc89](https://github.com/lilaquadrat/interfaces/commit/d26fc891e53d20388149a9309d9d8d6502964640))
+
 ## [1.24.0](https://github.com/lilaquadrat/interfaces/compare/v1.23.0...v1.24.0) (2025-04-01)
 
 
