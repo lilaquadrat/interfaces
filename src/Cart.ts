@@ -1,4 +1,5 @@
 import { CartItem } from "./CartItem"
+import { ObjectIdString } from "./ObjectIdString"
 
 export interface Cart {
 
@@ -16,5 +17,7 @@ export interface Cart {
     modified?: Date
 
     checkoutUrl?: string
+
+    payment: ObjectIdString
     
 }
