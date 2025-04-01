@@ -1,6 +1,5 @@
+import { ObjectId } from "mongodb"
 import { CartItem } from "./CartItem"
-import { ObjectIdString } from "./ObjectIdString"
-
 export interface Cart {
 
     items?: CartItem[]
@@ -18,6 +17,6 @@ export interface Cart {
 
     checkoutUrl?: string
 
-    payment: ObjectIdString
+    payment?: ObjectId
     
 }
