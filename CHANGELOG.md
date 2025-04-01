@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.23.0](https://github.com/lilaquadrat/interfaces/compare/v1.22.0...v1.23.0) (2025-04-01)
+
+
+### Features
+
+* **cart:** add Cart and CartItem interfaces; update ListCategory and ListItem structures ([bb17d2e](https://github.com/lilaquadrat/interfaces/commit/bb17d2e9ffc841ea12faddc87f86b8646cafe07b))
+
 ## [1.22.0](https://github.com/lilaquadrat/interfaces/compare/v1.21.1...v1.22.0) (2025-03-27)
 
 
