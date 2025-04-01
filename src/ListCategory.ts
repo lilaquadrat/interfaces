@@ -1,10 +1,12 @@
+import { ObjectId } from "mongodb";
 import Price from "./Price";
 
 export interface ListCategory {
 
-  id: string;
+  _id: ObjectId;
   name: string
   description?: string
+  externalId?: string
   amount?: number
   disabled?: boolean
   price?: Price

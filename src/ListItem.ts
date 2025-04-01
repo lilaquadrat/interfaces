@@ -1,6 +1,7 @@
 export interface ListItem {
 
-    id: string
+    id?: string
+    _id?: string
     name: string
     price?: number
     currency?: string

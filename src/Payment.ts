@@ -13,4 +13,5 @@ export interface Payment {
     customer: ObjectId
     webhook?: ObjectId
     items?: ListItem[]
+    additionalData?: Record<string, string>
 }

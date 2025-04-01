@@ -1,7 +1,7 @@
 
 export interface PaymentProvider {
 
-  type: 'shopify'
+  type: 'shopify' | 'stripe'
 
   active: boolean
 
