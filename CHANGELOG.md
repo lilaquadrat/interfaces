@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.24.0](https://github.com/lilaquadrat/interfaces/compare/v1.23.0...v1.24.0) (2025-04-01)
+
+
+### Features
+
+* **cart:** add payment property to Cart ([6ef3251](https://github.com/lilaquadrat/interfaces/commit/6ef325144d08515d65abdc1a1c993d80d462283b))
+
 ## [1.23.0](https://github.com/lilaquadrat/interfaces/compare/v1.22.0...v1.23.0) (2025-04-01)
 
 
