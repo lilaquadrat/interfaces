@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.26.0](https://github.com/lilaquadrat/interfaces/compare/v1.25.0...v1.26.0) (2025-04-02)
+
+
+### Features
+
+* **cart:** add 'finished' state to Cart interface ([56702b9](https://github.com/lilaquadrat/interfaces/commit/56702b9e8ebf9ec98cc4860b6fe8b24c47a8d3b0))
+
 ## [1.25.0](https://github.com/lilaquadrat/interfaces/compare/v1.24.0...v1.25.0) (2025-04-01)
 
 
