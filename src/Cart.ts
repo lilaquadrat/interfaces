@@ -4,7 +4,7 @@ export interface Cart {
 
     items?: CartItem[]
 
-    state: 'open' | 'closed' | 'checkout'
+    state: 'open' | 'closed' | 'checkout' | 'finished'
 
     company: string
     project: string
