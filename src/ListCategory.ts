@@ -3,7 +3,8 @@ import Price from "./Price";
 
 export interface ListCategory {
 
-  _id: ObjectId;
+  _id: ObjectId
+  id: string
   name: string
   description?: string
   externalId?: string
