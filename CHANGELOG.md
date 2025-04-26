@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.28.0](https://github.com/lilaquadrat/interfaces/compare/v1.27.0...v1.28.0) (2025-04-26)
+
+
+### Features
+
+* **modules:** enhance module type definitions to support dynamic string types ([036175a](https://github.com/lilaquadrat/interfaces/commit/036175a170e44dee2b862476dafa82d4c7dc284a))
+
 ## [1.27.0](https://github.com/lilaquadrat/interfaces/compare/v1.26.1...v1.27.0) (2025-04-26)
 
 
