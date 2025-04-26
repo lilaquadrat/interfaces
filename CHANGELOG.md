@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.27.0](https://github.com/lilaquadrat/interfaces/compare/v1.26.1...v1.27.0) (2025-04-26)
+
+
+### Features
+
+* **modules:** added interfaces for all compatible modules ([2e1d6a3](https://github.com/lilaquadrat/interfaces/commit/2e1d6a3e80c163d4c39d4e873507430f264f487c))
+
 ### [1.26.1](https://github.com/lilaquadrat/interfaces/compare/v1.26.0...v1.26.1) (2025-04-16)
 
 
