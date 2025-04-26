@@ -4,7 +4,7 @@ import { Module } from "./Module"
 import { Textblock } from "./Textblock"
 
 export interface LocationModule extends Module {
-  type: 'location-module'
+  type: 'location-module' | `${string}-location-module`
   textblock?: Textblock
   map?: string
   list?: ListString

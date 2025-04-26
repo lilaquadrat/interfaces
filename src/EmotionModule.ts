@@ -5,7 +5,7 @@ import { Textblock } from "./Textblock"
 import { Video } from "./Video"
 
 export interface EmotionModule extends Module {
-  type: "emotion-module"
+  type: "emotion-module" | `${string}-emotion-module`
   fontVariant?: string[]
   background?: Picture
   video?: Video

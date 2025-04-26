@@ -7,7 +7,7 @@ import { Module } from "./Module"
 import { Textblock } from "./Textblock"
 
 export interface EventModule extends Module {
-  type: "event-module"
+  type: "event-module" | `${string}-event-module`
   textblock?: Textblock
   artist?: string
   name?: string

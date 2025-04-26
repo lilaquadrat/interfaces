@@ -4,7 +4,7 @@ import { PicturegroupElement } from "./PicturegroupElement"
 import { Textblock } from "./Textblock"
 
 export interface PicturegroupModule extends Module {
-  type: "picturegroup-module"
+  type: "picturegroup-module" | `${string}-picturegroup-module`
   elements?: PicturegroupElement[]
   title?: Textblock
   list?: ListString

@@ -4,7 +4,7 @@ import { Module } from "./Module"
 import { Textblock } from "./Textblock"
 
 export interface CookiesModule extends Module {
-  type: "cookies-module"
+  type: "cookies-module" | `${string}-cookies-module`
   textblock?: Textblock
   list?: ListString
   links?: ListLink

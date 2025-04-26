@@ -4,7 +4,7 @@ import { Module } from "./Module"
 import { Textblock } from "./Textblock"
 
 export interface CompareModule extends Module {
-    type: "compare-module"
+    type: "compare-module" | `${string}-compare-module`
     textblock?: Textblock
     elements?: CompareElement[]
     structure?: CompareStructureElement[]

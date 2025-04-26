@@ -5,7 +5,7 @@ import { Picture } from "./Picture"
 import { Textblock } from "./Textblock"
 
 export interface PictureAndTextModule extends Module {
-  type: "pictureandtext-module"
+  type: "pictureandtext-module" | `${string}-pictureandtext-module`
   picture?: Picture
   textblock?: Textblock
   title?: Textblock

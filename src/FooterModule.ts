@@ -8,7 +8,7 @@ import { Picture } from "./Picture"
 import { Textblock } from "./Textblock"
 
 export interface FooterModule extends Module {
-  type: "footer-module"
+  type: "footer-module" | `${string}-footer-module`
   legal?: string
   contact?: FooterContact
   social?: FooterSocial

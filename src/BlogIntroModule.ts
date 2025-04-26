@@ -4,7 +4,7 @@ import { Picture } from "./Picture"
 import { Textblock } from "./Textblock"
 
 export interface BlogIntroModule extends Module {
-  type: "blog-intro-module"
+  type: "blog-intro-module" | `${string}-blog-intro-module`
   author?: string
   date?: string
   textblock?: Textblock

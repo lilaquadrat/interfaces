@@ -5,7 +5,7 @@ import { Module } from "./Module"
 import { Textblock } from "./Textblock"
 
 export interface CallToActionModule extends Module {
-    type: "callToAction-module"
+    type: "callToAction-module" | `${string}-callToAction-module`
     textblock?: Textblock
     list?: ListString
     links?: ListLink

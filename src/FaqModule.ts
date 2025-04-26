@@ -3,7 +3,7 @@ import { Module } from "./Module"
 import { Textblock } from "./Textblock"
 
 export interface FaqModule extends Module {
-    type: "faq-module"
+    type: "faq-module" | `${string}-faq-module`
     textblock?: Textblock
     accordion?: Accordion
 }
