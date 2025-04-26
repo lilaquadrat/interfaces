@@ -1,4 +1,4 @@
-export default interface ShopifyProjectSettings {
+export interface ShopifyProjectSettings {
 
     key?: string
 

@@ -1,7 +1,7 @@
-export default interface Price {
+export interface Price {
 
-  amount: number
-  currency: string
-  tax: number
+  amount?: number
+  currency?: string
+  tax?: number
 
 }

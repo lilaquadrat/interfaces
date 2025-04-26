@@ -1,5 +1,5 @@
 import { ObjectId } from "mongodb";
-import Price from "./Price";
+import {Price} from "./Price";
 
 export interface ListCategory {
 

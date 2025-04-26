@@ -1,5 +1,5 @@
-import Auth0ProjectSettings from "./Auth0ProjectSettings"
-import ShopifyProjectSettings from "./ShopifyProjectSettings"
+import {Auth0ProjectSettings} from "./Auth0ProjectSettings"
+import {ShopifyProjectSettings} from "./ShopifyProjectSettings"
 
 export interface Project {
 

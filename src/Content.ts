@@ -1,15 +1,22 @@
 import { ChildData } from "./ChildData"
+import { CompatibleModule } from "./CompatibleModule"
 import { GenericData } from "./GenericData"
-import { ModuleGeneric } from "./ModuleGeneric"
 import { ObjectIdString } from "./ObjectIdString"
 
 export interface Content {
   id: string
   company: string
   project: string
-  modules: ModuleGeneric[]
+  modules: CompatibleModule[]
   tags?: string[]
+  /**
+   * a description of the content which will be used as context for AI text generation
+   */
   description?: string
+  /**
+   * a internal note for better understanding and identification of the content
+   */
+  note?: string
   partial?: boolean
   layout?: boolean
   state: 'draft' | 'publish'

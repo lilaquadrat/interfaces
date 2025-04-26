@@ -1,4 +1,4 @@
-export default interface Auth0ProjectSettings {
+export interface Auth0ProjectSettings {
 
     domain?: string
 
