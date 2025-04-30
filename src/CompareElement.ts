@@ -1,5 +1,5 @@
 export interface CompareElement {
-    elements?: string[]
+    elements?: string[][]
     headline?: string
     description?: string
   }
