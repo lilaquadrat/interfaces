@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.28.1](https://github.com/lilaquadrat/interfaces/compare/v1.28.0...v1.28.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* **CompareElement:** update elements type to support nested string arrays ([75d480a](https://github.com/lilaquadrat/interfaces/commit/75d480a9675ab021a115533ece3b9d46abfe0033))
+
 ## [1.28.0](https://github.com/lilaquadrat/interfaces/compare/v1.27.0...v1.28.0) (2025-04-26)
 
 
