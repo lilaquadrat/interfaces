@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.29.0](https://github.com/lilaquadrat/interfaces/compare/v1.28.1...v1.29.0) (2025-06-19)
+
+
+### Features
+
+* **loggingentry, project:** updated project for features and ai. added loggingentry ([155c2eb](https://github.com/lilaquadrat/interfaces/commit/155c2eb5f61577cc40450b869bd98813b3fcd8c9))
+
 ### [1.28.1](https://github.com/lilaquadrat/interfaces/compare/v1.28.0...v1.28.1) (2025-04-30)
 
 
