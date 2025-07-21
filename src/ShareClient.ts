@@ -33,4 +33,6 @@ export interface ShareClientInterface {
 
   copy(files: string[], sourceFolder: string, destinationFolder: string): Promise<boolean>;
 
+  getDownloadUrl(path: string, lifetimeInSeconds?: number): Promise<string>;
+
 }
