@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.30.0](https://github.com/lilaquadrat/interfaces/compare/v1.29.0...v1.30.0) (2025-07-21)
+
+
+### Features
+
+* **ShareClient:** add getDownloadUrl method and update ShareClientOptions for optional connectionString ([a4bc9de](https://github.com/lilaquadrat/interfaces/commit/a4bc9de5e7ea2dcce0ca10c8260a4d8a7406f73b))
+
 ## [1.29.0](https://github.com/lilaquadrat/interfaces/compare/v1.28.1...v1.29.0) (2025-06-19)
 
 
