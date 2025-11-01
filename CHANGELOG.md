@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.31.0](https://github.com/lilaquadrat/interfaces/compare/v1.30.0...v1.31.0) (2025-11-01)
+
+
+### Features
+
+* **DesignCustomModule, PlaceholderModule:** add inputData to PlaceholderModule and define value types in DesignCustomModule ([d79463f](https://github.com/lilaquadrat/interfaces/commit/d79463f666d1026c7ea67b2321e24b72a5c0ecd7))
+
 ## [1.30.0](https://github.com/lilaquadrat/interfaces/compare/v1.29.0...v1.30.0) (2025-07-21)
 
 
