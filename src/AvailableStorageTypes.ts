@@ -1,1 +1,1 @@
-export type AvailableStorageTypes = 'mock'|'azureBlob'|'azureStorage'|'filesystem';
+export type AvailableStorageTypes = 'mock' | 'azureBlob' | 'azureStorage' | 'filesystem' | 'minio';
