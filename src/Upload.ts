@@ -1,4 +1,5 @@
 import { ObjectId } from 'mongodb';
+import { ObjectIdString } from './ObjectIdString';
 
 export interface Upload {
     _id?: ObjectId;
@@ -6,6 +7,8 @@ export interface Upload {
     prefix?: string;
     company?: string;
     project?: string;
+    customer?: ObjectIdString | ObjectId;
+    list?: ObjectIdString | ObjectId;
     user?: string;
     app?: string;
     mimetype?: string;
@@ -14,5 +17,11 @@ export interface Upload {
     paths?: { path: string, index: number }[];
     updated?: Date;
     state?: 'uploading' | 'waiting' | 'processing' | 'finished' | 'error';
-    bucket?: string
+    options?: {
+        /**
+         * create thumbnails for images
+         */
+        thumbnails?: boolean,
+        overwrite?: boolean
+    }
 }

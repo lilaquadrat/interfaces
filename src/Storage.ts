@@ -5,6 +5,15 @@ export interface Storage {
     company?: string
     project?: string
 
+    /**
+     * this document can be bound to a specific customer
+     */
+    customer?: ObjectId
+    /**
+     * this document can be bound to a specific list and customer
+     */
+    list?: ObjectId
+
     filename?: string
     prefix?: string
     
@@ -12,12 +21,16 @@ export interface Storage {
 
     metadata?: MediaMetadata
 
-    bucket?: string
-
-    versions?: ObjectId[]
-
     parent?: ObjectId
 
+    /**
+     * app functions here as a bucket
+     */
     app?: string
-    appId?: string
+
+    /**
+     * for better classification
+     * e.g. profilepicture
+     */
+    type?: string
 }
