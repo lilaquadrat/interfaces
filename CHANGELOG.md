@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.32.0](https://github.com/lilaquadrat/interfaces/compare/v1.31.0...v1.32.0) (2025-12-12)
+
+
+### Features
+
+* **Storage, Upload:** enhance interfaces with customer and list properties; add StorageFilePaths interface ([b466639](https://github.com/lilaquadrat/interfaces/commit/b466639dcbad3ae03e9a33a540c80958c6f4491f))
+
 ## [1.31.0](https://github.com/lilaquadrat/interfaces/compare/v1.30.0...v1.31.0) (2025-11-01)
 
 
