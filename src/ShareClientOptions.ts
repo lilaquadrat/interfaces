@@ -7,4 +7,16 @@ export interface ShareClientOptions {
   baseFolder?: string
   accountName?: string
   sharedKeyCredentials?: StorageSharedKeyCredential
+  /**
+   * s3/minio accessKey
+   */
+  accessKey?: string
+  /**
+ * s3/minio secretKey
+ */
+  secretKey?: string
+  /**
+   * s3/minio endpoint
+   */
+  endpoint?: string
 }

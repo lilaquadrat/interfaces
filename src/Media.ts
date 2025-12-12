@@ -1,6 +1,6 @@
 import { ObjectId } from "mongodb";
 import {Content} from "./Content";
-import { MediaInfo } from "./MediaInfo";
+import { MediaMetadata } from "./MediaMetadata";
 import { MediaViewInfo } from "./MediaViewInfo";
 import { VersionInfo } from "./VersionInfo";
 
@@ -22,11 +22,14 @@ export interface Media {
   video?: boolean;
   folder?: boolean;
   mimetype?: string;
+  path?: string
 
-  info?: MediaInfo;
+  info?: MediaMetadata;
   view?: MediaViewInfo;
   download?: string;
   basePath?: string;
+
+  copyright?: string;
 
   baseContent?: {
     id: ObjectId,
