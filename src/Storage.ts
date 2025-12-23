@@ -2,7 +2,7 @@ import { ObjectId } from "mongodb";
 import { MediaMetadata } from "./MediaMetadata";
 
 export interface Storage {
-    company?: string
+    company: string
     project?: string
 
     /**
@@ -14,7 +14,7 @@ export interface Storage {
      */
     list?: ObjectId
 
-    filename?: string
+    filename: string
     prefix?: string
     
     path?: string
