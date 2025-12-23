@@ -28,4 +28,5 @@ export interface DatabaseQueryOptions {
      */
   keepSearch?: boolean;
   keepSort?: boolean;
+  search?: string[];
 }
