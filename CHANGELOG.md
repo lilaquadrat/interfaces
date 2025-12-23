@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.33.0](https://github.com/lilaquadrat/interfaces/compare/v1.32.0...v1.33.0) (2025-12-23)
+
+
+### Features
+
+* **databasequeryoptions:** added search ([99d6a62](https://github.com/lilaquadrat/interfaces/commit/99d6a62b0be4b291d7cd69f85665bd2fb273907a))
+* **mongodb:** installed version 7 ([92d072e](https://github.com/lilaquadrat/interfaces/commit/92d072e83cfec43970029e19b52f3ad51c312db8))
+
+
+### Bug Fixes
+
+* **storage:** company and filename are required ([c2da646](https://github.com/lilaquadrat/interfaces/commit/c2da6460ef5a2e82b034056647b7cd3b78b6ec42))
+
 ## [1.32.0](https://github.com/lilaquadrat/interfaces/compare/v1.31.0...v1.32.0) (2025-12-12)
 
 
