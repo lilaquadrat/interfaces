@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.33.1](https://github.com/lilaquadrat/interfaces/compare/v1.33.0...v1.33.1) (2025-12-31)
+
+
+### Bug Fixes
+
+* **storage:** make 'app' property required in Storage interface and add StorageCopyAction interface ([d843000](https://github.com/lilaquadrat/interfaces/commit/d84300036ee85f97843155a5e9eb9bdbfe6e29d8))
+
 ## [1.33.0](https://github.com/lilaquadrat/interfaces/compare/v1.32.0...v1.33.0) (2025-12-23)
 
 
