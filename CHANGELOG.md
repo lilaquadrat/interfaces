@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.33.2](https://github.com/lilaquadrat/interfaces/compare/v1.33.1...v1.33.2) (2025-12-31)
+
+
+### Bug Fixes
+
+* **upload:** make 'filename', 'app', and 'mimetype' properties required in Upload interface ([c361c03](https://github.com/lilaquadrat/interfaces/commit/c361c03ec6bf3060db73daaf3549c58181912d26))
+
 ### [1.33.1](https://github.com/lilaquadrat/interfaces/compare/v1.33.0...v1.33.1) (2025-12-31)
 
 
