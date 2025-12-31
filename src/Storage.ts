@@ -26,7 +26,7 @@ export interface Storage {
     /**
      * app functions here as a bucket
      */
-    app?: string
+    app: string
 
     /**
      * for better classification
