@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.34.0](https://github.com/lilaquadrat/interfaces/compare/v1.33.2...v1.34.0) (2026-01-03)
+
+
+### Features
+
+* **ProjectDomain:** add ProjectDomain interface with company, project, and secret properties ([33af056](https://github.com/lilaquadrat/interfaces/commit/33af056a8f39d25af8e1202455cc789f65f9738f))
+
 ### [1.33.2](https://github.com/lilaquadrat/interfaces/compare/v1.33.1...v1.33.2) (2025-12-31)
 
 
