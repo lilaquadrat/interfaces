@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.34.1](https://github.com/lilaquadrat/interfaces/compare/v1.34.0...v1.34.1) (2026-01-03)
+
+
+### Bug Fixes
+
+* **ProjectDomain:** rename interface to ProjectDomainWithSecret for clarity ([617e7ae](https://github.com/lilaquadrat/interfaces/commit/617e7aecc2efafd10227902754f5b32c18b8a5a7))
+
 ## [1.34.0](https://github.com/lilaquadrat/interfaces/compare/v1.33.2...v1.34.0) (2026-01-03)
 
 
