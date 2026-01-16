@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.35.0](https://github.com/lilaquadrat/interfaces/compare/v1.34.1...v1.35.0) (2026-01-16)
+
+
+### Features
+
+* **Invoice:** add invoice-related interfaces and types for structured invoice management ([ac928be](https://github.com/lilaquadrat/interfaces/commit/ac928be59e4009c2d23402a0f4e3e38ba3b8678a))
+
+
+### Bug Fixes
+
+* **CustomerPerson:** make prename optional in CustomerPerson interface ([0826980](https://github.com/lilaquadrat/interfaces/commit/0826980f7eb341058e5fbae5c8d48cac7c3af7ae))
+
 ### [1.34.1](https://github.com/lilaquadrat/interfaces/compare/v1.34.0...v1.34.1) (2026-01-03)
 
 
