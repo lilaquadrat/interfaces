@@ -5,7 +5,7 @@ export interface CustomerPerson extends CustomerBase {
 
   type?: 'person'
 
-  prename: string
+  prename?: string
 
   // birthday?: Date
   gender?: 'm' | 'w' | 'd'
