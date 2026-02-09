@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.36.0](https://github.com/lilaquadrat/interfaces/compare/v1.35.0...v1.36.0) (2026-02-09)
+
+
+### Features
+
+* **emaillimit:** added new EmailLimit interface ([3a79467](https://github.com/lilaquadrat/interfaces/commit/3a794679d030aac85bad997ad8027db446be5cd5))
+
 ## [1.35.0](https://github.com/lilaquadrat/interfaces/compare/v1.34.1...v1.35.0) (2026-01-16)
 
 
