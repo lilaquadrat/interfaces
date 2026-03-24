@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.38.0](https://github.com/lilaquadrat/interfaces/compare/v1.37.0...v1.38.0) (2026-03-24)
+
+
+### Features
+
+* **Design:** add Design and DesignFile interfaces ([2062d7a](https://github.com/lilaquadrat/interfaces/commit/2062d7a74424a6542af6ca4f0b169ae799a37953))
+
 ## [1.37.0](https://github.com/lilaquadrat/interfaces/compare/v1.36.0...v1.37.0) (2026-02-21)
 
 
