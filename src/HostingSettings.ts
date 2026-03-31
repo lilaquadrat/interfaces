@@ -1,5 +1,6 @@
 export interface HostingSettings {
   id: string,
   baseDomain: string,
-  ipAdresses: string[]
+  ipv4: string,
+  ipv6: string,
 }
