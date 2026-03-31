@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.39.0](https://github.com/lilaquadrat/interfaces/compare/v1.38.0...v1.39.0) (2026-03-31)
+
+
+### Features
+
+* **Hosting:** update HostingSettings and HostingWithSettings interfaces to use ipv4 and ipv6 ([79524ec](https://github.com/lilaquadrat/interfaces/commit/79524ec88b97166128fb42bfa805e93407d049e7))
+
 ## [1.38.0](https://github.com/lilaquadrat/interfaces/compare/v1.37.0...v1.38.0) (2026-03-24)
 
 
