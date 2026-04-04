@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.40.0](https://github.com/lilaquadrat/interfaces/compare/v1.39.0...v1.40.0) (2026-04-04)
+
+
+### Features
+
+* **PublishMethod:** add excludeTags and excludeCategories properties to interface ([8f63ef7](https://github.com/lilaquadrat/interfaces/commit/8f63ef7204c6a53816a84a45e39fda775dfd3ecb))
+
 ## [1.39.0](https://github.com/lilaquadrat/interfaces/compare/v1.38.0...v1.39.0) (2026-03-31)
 
 
