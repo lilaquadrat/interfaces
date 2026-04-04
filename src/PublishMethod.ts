@@ -18,6 +18,10 @@ export interface PublishMethod {
 
   affectedStates?: Content['state'][]
 
+  excludeTags?: string[]
+
+  excludeCategories?: string[]
+
   [key: string]: any
 
 }
