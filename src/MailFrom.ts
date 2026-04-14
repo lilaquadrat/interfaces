@@ -5,11 +5,9 @@ export interface MailFrom {
     status: 'active' | 'inactive',
     dnsCheck: boolean,
     dns: {
-        mx: string,
-        spf: string,
-        dkim: string,
-        dmarc: string,
-        txt: string
+        serverIp: string
+        dkim: string
+        text: string
     }
     restrictedTo: string[];
 }
