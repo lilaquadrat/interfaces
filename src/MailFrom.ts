@@ -7,7 +7,7 @@ export interface MailFrom {
     dns: {
         serverIp: string
         dkim: string
-        text: string
+        txt: string
     }
     restrictedTo: string[];
 }
