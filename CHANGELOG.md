@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.40.2](https://github.com/lilaquadrat/interfaces/compare/v1.40.1...v1.40.2) (2026-04-14)
+
+
+### Bug Fixes
+
+* **MailFrom:** correct property name from 'text' to 'txt' in dns object ([38be243](https://github.com/lilaquadrat/interfaces/commit/38be243352808a371a543df32c9375cd77b2900f))
+
 ### [1.40.1](https://github.com/lilaquadrat/interfaces/compare/v1.40.0...v1.40.1) (2026-04-14)
 
 ## [1.40.0](https://github.com/lilaquadrat/interfaces/compare/v1.39.0...v1.40.0) (2026-04-04)
