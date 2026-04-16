@@ -43,4 +43,8 @@ export interface Publish {
     publishData?: {id: number | string, name?: string}
 
     recipient?: ObjectIdString;
+
+    relatedData?: {
+      list?: ObjectId
+    }
   }
