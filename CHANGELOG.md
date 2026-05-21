@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.42.0](https://github.com/lilaquadrat/interfaces/compare/v1.41.0...v1.42.0) (2026-05-21)
+
+
+### Features
+
+* **Limiter:** add LimiterTier, LimiterBreach and LimiterPluginOptions interfaces ([8dd392b](https://github.com/lilaquadrat/interfaces/commit/8dd392b10571d8d6c93c523dc3db7c961ddb5e6d))
+* **Structure,Storage,Upload:** add file asset binding and member upload metadata ([485a044](https://github.com/lilaquadrat/interfaces/commit/485a044009f281696a6098493dc327cc3d490e23))
+
 ## [1.41.0](https://github.com/lilaquadrat/interfaces/compare/v1.40.2...v1.41.0) (2026-04-16)
 
 
