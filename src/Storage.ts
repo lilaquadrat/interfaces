@@ -29,8 +29,7 @@ export interface Storage {
     app: string
 
     /**
-     * for better classification
-     * e.g. profilepicture
+     * binds the storage document to a structure asset definition
      */
-    type?: string
+    assetId?: string
 }

@@ -11,6 +11,7 @@ export interface Upload {
     list?: ObjectIdString | ObjectId;
     user?: string;
     app: string;
+    assetId?: string;
     mimetype: string;
     size?: number;
     chunks: number;
@@ -21,7 +22,14 @@ export interface Upload {
         /**
          * create thumbnails for images
          */
-        thumbnails?: boolean,
+        thumbnails?: boolean
         overwrite?: boolean
+        /**
+         * when a member uploads a file it needs to be bound to a content id and a specific module
+         * to limit the access to upload files
+         */
+        contentId?: string
+        moduleUuid?: string
+        structureInternalId?: ObjectId
     }
 }

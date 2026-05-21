@@ -12,11 +12,11 @@ export interface Structure {
   /**
    * Type of the structure
    */
-  type: 'string' | 'text' | 'number' | 'select' | 'boolean'
+  type: 'string' | 'text' | 'number' | 'select' | 'boolean' | 'file'
   model: 'listsParticipants' | 'customers'
 
   /**
-   * Maximum value for number type or maximum length for text type
+   * Maximum value for number, maximum length for text, or maximum number of files for file type
    */
   max?: number
 
@@ -40,5 +40,13 @@ export interface Structure {
   company: string
   project: string
 
+
+  /**
+   * file upload specifics
+   */
+  maxFileSize?: number
+  allowedMimeTypes?: string[]
+
   description?: string
+  assetId?: string
 }
