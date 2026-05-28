@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.43.0](https://github.com/lilaquadrat/interfaces/compare/v1.42.0...v1.43.0) (2026-05-28)
+
+
+### Features
+
+* **files module:** added files module ([348cc88](https://github.com/lilaquadrat/interfaces/commit/348cc886b6d490d8c146d59d3070be231590b1c6))
+
 ## [1.42.0](https://github.com/lilaquadrat/interfaces/compare/v1.41.0...v1.42.0) (2026-05-21)
 
 
