@@ -8,6 +8,7 @@ import { EventModule } from "./EventModule";
 import { EventsListModule } from "./EventsListModule";
 import { FactsModule } from "./FactsModule";
 import { FaqModule } from "./FaqModule";
+import { FilesModule } from "./FilesModule";
 import { FooterModule } from "./FooterModule";
 import { GalleryModule } from "./GalleryModule";
 import { IndexModule } from "./IndexModule";
@@ -42,6 +43,7 @@ export type CompatibleModule =
   | EventsListModule
   | FactsModule
   | FaqModule
+  | FilesModule
   | FooterModule
   | GalleryModule
   | IndexModule
