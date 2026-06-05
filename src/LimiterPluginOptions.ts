@@ -32,6 +32,8 @@ export interface LimiterPluginOptions {
   overrides?: LimiterPrefixOverride[];
   /** Routes to skip entirely. Default: ['/health', '/']. */
   ignoreRoutes?: string[];
+  /** URL prefixes that skip rate limiting entirely. Longest match wins. */
+  whitelist?: string[];
   /** Fail-open if Mongo errors. Default: true. */
   skipOnError?: boolean;
 }
