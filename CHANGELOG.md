@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.44.0](https://github.com/lilaquadrat/interfaces/compare/v1.43.0...v1.44.0) (2026-06-05)
+
+
+### Features
+
+* **limiterplugin:** added whitelist ([c8bda16](https://github.com/lilaquadrat/interfaces/commit/c8bda166841b0fbece56c6c724ca6578ba925de8))
+
 ## [1.43.0](https://github.com/lilaquadrat/interfaces/compare/v1.42.0...v1.43.0) (2026-05-28)
 
 
