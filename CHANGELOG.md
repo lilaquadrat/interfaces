@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.45.0](https://github.com/lilaquadrat/interfaces/compare/v1.44.0...v1.45.0) (2026-07-13)
+
+
+### Features
+
+* **conversation:** added conversation interface ([8e1e8bc](https://github.com/lilaquadrat/interfaces/commit/8e1e8bc17ed0d95ac8c362df29d0448ff1382e38))
+
 ## [1.44.0](https://github.com/lilaquadrat/interfaces/compare/v1.43.0...v1.44.0) (2026-06-05)
 
 
