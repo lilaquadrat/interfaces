@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.46.0](https://github.com/lilaquadrat/interfaces/compare/v1.45.0...v1.46.0) (2026-07-27)
+
+
+### Features
+
+* **list:** added location and change date type ([048a889](https://github.com/lilaquadrat/interfaces/commit/048a8890ab260ebb10f3da23420692d407a7ffc5))
+
 ## [1.45.0](https://github.com/lilaquadrat/interfaces/compare/v1.44.0...v1.45.0) (2026-07-13)
 
 
