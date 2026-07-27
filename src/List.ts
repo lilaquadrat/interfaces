@@ -14,12 +14,12 @@ export interface List {
     description?: string
     mode: 'contact' | 'content' | 'reservation' | 'shopping'
   
-    start?: Date
-    end?: Date
-  
-    payment?: 'optional' | 'required' | 'free'
-  
-    participants?: {
+  start?: string
+  end?: string
+
+  location?: string
+
+  participants?: {
       max?: number
       confirmed?: number
       reserved?: number
