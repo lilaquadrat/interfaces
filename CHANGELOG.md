@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.47.0](https://github.com/lilaquadrat/interfaces/compare/v1.46.0...v1.47.0) (2026-08-28)
+
+
+### Features
+
+* **sla:** add configuration and conversation contracts ([2973218](https://github.com/lilaquadrat/interfaces/commit/2973218714e3fe36c404f6ac09f1679d608cafd4))
+
 ## [1.46.0](https://github.com/lilaquadrat/interfaces/compare/v1.45.0...v1.46.0) (2026-07-27)
 
 
