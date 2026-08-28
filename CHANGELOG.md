@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.48.0](https://github.com/lilaquadrat/interfaces/compare/v1.47.0...v1.48.0) (2026-08-28)
+
+
+### Features
+
+* **me:** added lastSeen & connected status ([9256d37](https://github.com/lilaquadrat/interfaces/commit/9256d3765699044a43cf36d7f271966f626d6cea))
+
 ## [1.47.0](https://github.com/lilaquadrat/interfaces/compare/v1.46.0...v1.47.0) (2026-08-28)
 
 
