@@ -9,6 +9,7 @@ export interface Upload {
     project?: string;
     customer?: ObjectIdString | ObjectId;
     list?: ObjectIdString | ObjectId;
+    conversation?: ObjectIdString | ObjectId;
     user?: string;
     app: string;
     assetId?: string;

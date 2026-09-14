@@ -1,3 +1,4 @@
+import { ObjectId } from "mongodb"
 import { ChildData } from "./ChildData"
 import { CompatibleModule } from "./CompatibleModule"
 import { GenericData } from "./GenericData"
@@ -9,6 +10,7 @@ export interface Content {
   project: string
   modules: CompatibleModule[]
   tags?: string[]
+  categories?: ObjectId[]
   /**
    * a description of the content which will be used as context for AI text generation
    */

@@ -2,7 +2,7 @@ import { ObjectId } from "mongodb";
 import { MediaMetadata } from "./MediaMetadata";
 
 export interface Storage {
-    company: string
+    company?: string
     project?: string
 
     /**
@@ -13,6 +13,8 @@ export interface Storage {
      * this document can be bound to a specific list and customer
      */
     list?: ObjectId
+
+    conversation?: ObjectId
 
     filename: string
     prefix?: string
