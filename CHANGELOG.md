@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.49.0](https://github.com/lilaquadrat/interfaces/compare/v1.48.0...v1.49.0) (2026-09-14)
+
+
+### Features
+
+* **chat:** add conversation message and attachment contracts ([3554030](https://github.com/lilaquadrat/interfaces/commit/35540305e7c99a654af23d0147ce2096e81c0a0d))
+
 ## [1.48.0](https://github.com/lilaquadrat/interfaces/compare/v1.47.0...v1.48.0) (2026-08-28)
 
 
