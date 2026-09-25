@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.50.1](https://github.com/lilaquadrat/interfaces/compare/v1.50.0...v1.50.1) (2026-09-25)
+
+
+### Bug Fixes
+
+* **SupportAvailability:** added missing file ([4e5864e](https://github.com/lilaquadrat/interfaces/commit/4e5864ee38e0312a834a7d48cbae18af56670f35))
+
 ## [1.50.0](https://github.com/lilaquadrat/interfaces/compare/v1.49.0...v1.50.0) (2026-09-25)
 
 
