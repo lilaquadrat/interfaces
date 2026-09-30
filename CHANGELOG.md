@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.51.0](https://github.com/lilaquadrat/interfaces/compare/v1.50.1...v1.51.0) (2026-09-30)
+
+
+### Features
+
+* **conversations:** add original support customer identity ([48caec1](https://github.com/lilaquadrat/interfaces/commit/48caec1a86469dbbd8227551fec585acb765e39e))
+
 ### [1.50.1](https://github.com/lilaquadrat/interfaces/compare/v1.50.0...v1.50.1) (2026-09-25)
 
 
