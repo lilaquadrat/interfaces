@@ -9,6 +9,8 @@ export interface Conversation {
   name?: string;
   participantsHash?: string;
   participants?: string[];
+  /** Original support customer; remains fixed even when participants change. */
+  supportCustomer?: string;
   blocked?: string[];
   messagesCount?: number;
   messagesCountSystem?: number;
