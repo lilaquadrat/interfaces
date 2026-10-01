@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.51.1](https://github.com/lilaquadrat/interfaces/compare/v1.51.0...v1.51.1) (2026-10-01)
+
+
+### Bug Fixes
+
+* **License:** mark fields optional to match persisted contract ([27f6a55](https://github.com/lilaquadrat/interfaces/commit/27f6a55e4b77278826f8e8c4a2f38cf75491a7d4))
+* **license:** renamed active to available ([23dd7b0](https://github.com/lilaquadrat/interfaces/commit/23dd7b02cda7c8b43d8ba47833d2444ecca69863))
+
 ## [1.51.0](https://github.com/lilaquadrat/interfaces/compare/v1.50.1...v1.51.0) (2026-09-30)
 
 
