@@ -5,20 +5,20 @@ export interface License {
 
   description?: string;
 
-  monthlyCost: number;
+  monthlyCost?: number;
   oneTimeCost?: number;
 
-  minimumContractMonths: number;
-  cancellationPeriodDays: number;
+  minimumContractMonths?: number;
+  cancellationPeriodDays?: number;
 
-  includesSupport: boolean;
+  includesSupport?: boolean;
   supportSla?: string;
 
-  active: boolean;
-  autoExtend: boolean;
+  active?: boolean;
+  autoExtend?: boolean;
 
   /** app ids that are included in this license */
-  includedApps: string[];
+  includedApps?: string[];
 
   /** per-app usage limits, e.g. { editor: { pages: 10 }, media: { storageMb: 500 } } */
   limits?: Record<string, Record<string, number>>;
