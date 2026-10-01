@@ -14,7 +14,8 @@ export interface License {
   includesSupport?: boolean;
   supportSla?: string;
 
-  active?: boolean;
+  /** bookable: whether this license can be assigned to a new project */
+  available?: boolean;
   autoExtend?: boolean;
 
   /** app ids that are included in this license */
