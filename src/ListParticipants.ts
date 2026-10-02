@@ -61,8 +61,12 @@ export interface ListParticipants extends WithStructures {
   ```paid```
   
   payment webhook confirmed
+   
+  ```canceled```
+  
+  customer withdrew their own entry; the slot is freed and no email is sent
   */
-  state: 'unchecked' | 'paid' | 'notuseful' | 'confirmed' | 'enlisted' | 'reserved' | 'waiting' | 'blocked' | 'finalized'
+  state: 'unchecked' | 'paid' | 'notuseful' | 'confirmed' | 'enlisted' | 'reserved' | 'waiting' | 'blocked' | 'finalized' | 'canceled'
   agreements: AgreementResponse[]
   /**
    * if the participants came from a payment webhook paid will have the amount of the whole payment
