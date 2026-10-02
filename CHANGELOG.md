@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.53.0](https://github.com/lilaquadrat/interfaces/compare/v1.52.0...v1.53.0) (2026-10-02)
+
+
+### Features
+
+* **List:** add opt-in participants.selfService flag ([84cfc4b](https://github.com/lilaquadrat/interfaces/commit/84cfc4b764c80f27712649d80b53eb5c223b205d))
+
 ## [1.52.0](https://github.com/lilaquadrat/interfaces/compare/v1.51.1...v1.52.0) (2026-10-02)
 
 
