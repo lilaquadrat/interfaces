@@ -27,6 +27,11 @@ export interface List {
       unique?: boolean
       addressRequired?: boolean
       totalPaid?: number
+      /**
+       * opt-in: when true a member may edit the structure answers of, and cancel,
+       * their own list entry. absent/false means disabled.
+       */
+      selfService?: boolean
     }
   
     state: 'open' | 'closed' | 'waiting'

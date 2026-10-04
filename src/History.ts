@@ -11,6 +11,7 @@ export interface History {
     app: string
     date: Date
     source: string
+    origin?: 'member'
     update?: Date
     branchVersion?: number
     copySource?: ObjectId

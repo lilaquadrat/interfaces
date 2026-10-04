@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.53.0](https://github.com/lilaquadrat/interfaces/compare/v1.52.0...v1.53.0) (2026-10-02)
+
+
+### Features
+
+* **List:** add opt-in participants.selfService flag ([84cfc4b](https://github.com/lilaquadrat/interfaces/commit/84cfc4b764c80f27712649d80b53eb5c223b205d))
+
+## [1.52.0](https://github.com/lilaquadrat/interfaces/compare/v1.51.1...v1.52.0) (2026-10-02)
+
+
+### Features
+
+* **customers:** add member profile update type and history origin ([7b4cae2](https://github.com/lilaquadrat/interfaces/commit/7b4cae203862369a8a1a7a53ba105bc6ab74af42))
+* **ListParticipants:** add canceled state for member withdrawals ([a684c8f](https://github.com/lilaquadrat/interfaces/commit/a684c8fde6d30b02242de50be74221d577f24e2a))
+
 ### [1.51.1](https://github.com/lilaquadrat/interfaces/compare/v1.51.0...v1.51.1) (2026-10-01)
 
 
