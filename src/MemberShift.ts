@@ -1,5 +1,5 @@
 import type { ObjectId } from 'mongodb';
-import type { ShiftPlanningArea } from './ShiftPlanningArea';
+import type { WorkArea } from './WorkArea';
 import type { ShiftAssignmentBreak } from './ShiftAssignmentBreak';
 
 export interface MemberShift {
@@ -9,7 +9,7 @@ export interface MemberShift {
   start: string;
   end: string;
   plan: { _id: ObjectId; name: string; timeZone: string };
-  list: { _id: ObjectId; name: string };
-  area: Pick<ShiftPlanningArea, '_id' | 'name' | 'description' | 'location' | 'address'>;
+  list?: { _id: ObjectId; name: string };
+  area: Pick<WorkArea, '_id' | 'name' | 'description' | 'location' | 'address'>;
   breaks: ShiftAssignmentBreak[];
 }

@@ -1,0 +1,1 @@
+export type StructureConditionOperator = 'lt' | 'lte' | 'eq' | 'gt' | 'gte';

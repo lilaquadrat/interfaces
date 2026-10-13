@@ -1,0 +1,1 @@
+export type StructureConditionGrade = 'very-positive' | 'positive' | 'negative' | 'very-negative';

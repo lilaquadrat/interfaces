@@ -1,0 +1,1 @@
+export type StructureConditionType = 'required' | 'forbidden' | 'very-positive' | 'positive' | 'negative' | 'very-negative';

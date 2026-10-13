@@ -1,7 +1,6 @@
 import type { ObjectId } from 'mongodb';
 
-/** Category suggestions depend on the plan's employee list, even when departments share an area. */
+/** A work area placed on a plan day; its shifts are scheduled in the resulting column. */
 export interface ShiftPlanArea {
   area: ObjectId;
-  categoryIds: ObjectId[];
 }

@@ -1,10 +1,11 @@
+import { BasicData } from "./BasicData";
 import { Structure } from "./Structure";
 
 /**
  * Base interface containing only the standard properties
  */
 interface BaseWithStructures {
-  structures?: Structure[]
+  structures?: BasicData<Structure>[]
 }
 
 /**
