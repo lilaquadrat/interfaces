@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.54.0](https://github.com/lilaquadrat/interfaces/compare/v1.53.1...v1.54.0) (2026-10-13)
+
+
+### Features
+
+* **Customers:** allow the changeStructures action ([177207a](https://github.com/lilaquadrat/interfaces/commit/177207ae117723909003f58e60defedd4f5f192f))
+* **History:** add history seen marker and change types ([6b1d09c](https://github.com/lilaquadrat/interfaces/commit/6b1d09c7732c87fcbc61980d2442790d401078cd))
+* **PaymentProvider:** add provider product and category external product flag ([1fae4e7](https://github.com/lilaquadrat/interfaces/commit/1fae4e74fb6a19fb3e1c5bdb03360cec193c7ae9))
+* **Shift:** add shift planning and employee absence interfaces ([cfb61fd](https://github.com/lilaquadrat/interfaces/commit/cfb61fd8ed304da93b7109a225f8e31ab8f2248e))
+* **Shift:** rework planning around work areas, plan days and structure conditions ([90668de](https://github.com/lilaquadrat/interfaces/commit/90668deef55b64a0ee81c9d0129b939248b7fc23))
+
 ### [1.53.1](https://github.com/lilaquadrat/interfaces/compare/v1.53.0...v1.53.1) (2026-10-04)
 
 ## [1.53.0](https://github.com/lilaquadrat/interfaces/compare/v1.52.0...v1.53.0) (2026-10-02)
