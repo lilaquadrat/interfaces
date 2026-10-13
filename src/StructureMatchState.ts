@@ -1,0 +1,1 @@
+export type StructureMatchState = 'fulfilled' | 'unfit';
