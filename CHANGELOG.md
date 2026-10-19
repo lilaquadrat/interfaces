@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.55.0](https://github.com/lilaquadrat/interfaces/compare/v1.54.0...v1.55.0) (2026-10-19)
+
+
+### Features
+
+* **Shift:** add planning scope and plan coverage interfaces ([c85f505](https://github.com/lilaquadrat/interfaces/commit/c85f5054eb3c002142f06aae0f780a4162a6ed6f))
+
 ## [1.54.0](https://github.com/lilaquadrat/interfaces/compare/v1.53.1...v1.54.0) (2026-10-13)
 
 
