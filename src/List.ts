@@ -40,6 +40,12 @@ export interface List {
   
     categories?: ListCategory[]
 
+    /**
+     * Shift plan linked to this list for planning its participants; the referenced
+     * plan must belong to the same company and project.
+     */
+    shiftPlan?: ObjectId
+
     content?: ListContent
 
     emails?: EmailsContent[]
