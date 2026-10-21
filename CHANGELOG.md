@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.56.0](https://github.com/lilaquadrat/interfaces/compare/v1.55.0...v1.56.0) (2026-10-21)
+
+
+### Features
+
+* **Shift:** add shift plan summary interface ([f3f8d91](https://github.com/lilaquadrat/interfaces/commit/f3f8d91f7527239a0cb55cd463757ebfb5c4d9ec))
+
 ## [1.55.0](https://github.com/lilaquadrat/interfaces/compare/v1.54.0...v1.55.0) (2026-10-19)
 
 
