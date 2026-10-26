@@ -46,6 +46,12 @@ export interface List {
      */
     shiftPlan?: ObjectId
 
+    /**
+     * Name of the linked shift plan, resolved on read for display. Not persisted and
+     * never sent on create/change; writes still use `shiftPlan`.
+     */
+    shiftPlanName?: string
+
     content?: ListContent
 
     emails?: EmailsContent[]

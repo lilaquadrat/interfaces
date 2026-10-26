@@ -8,6 +8,7 @@ export interface ShiftPlanChangeInput {
   list?: ObjectId;
   name: string;
   timeZone: string;
+  state?: 'draft' | 'publish';
   settingsOverrides: ShiftPlanningPolicyOverrides;
   workAreaCategories?: ShiftPlanWorkArea[];
   defaultParticipantState?: ListParticipants['state'] | null;

@@ -5,5 +5,6 @@ export interface GenericDataSingle {
     lists?: string
     customers?: string
     media?: string
+    shiftPlans?: string
     data?: Record<string, Content>
   }

@@ -3,14 +3,15 @@ import { Content } from "./Content"
 import { Customers } from "./Customers";
 import { List } from "./List";
 import { Media } from "./Media";
+import { ShiftPlan } from "./ShiftPlan";
 import { Structure } from "./Structure";
 
-type CompatibleGenericDataType = 'editor' | 'lists' | 'customers' | 'media' | 'structures';
+type CompatibleGenericDataType = 'editor' | 'lists' | 'customers' | 'media' | 'structures' | 'shiftPlans';
 
 type GenericData = {
     [key in CompatibleGenericDataType]: string[]
 } & {
-    data: BasicData<Content | List | Customers | Media | Structure>[];
+    data: BasicData<Content | List | Customers | Media | Structure | ShiftPlan>[];
 }
 
 

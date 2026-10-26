@@ -11,6 +11,8 @@ export interface ShiftPlan {
   list?: ObjectId;
   name: string;
   timeZone: string;
+  /** Publication state; documents created before the field existed read as `draft`. */
+  state?: 'draft' | 'publish';
   settingsOverrides: ShiftPlanningPolicyOverrides;
   /** One entry per work area used by the plan; binds employee-list categories to that area's shifts. */
   workAreaCategories?: ShiftPlanWorkArea[];
