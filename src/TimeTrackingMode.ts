@@ -1,0 +1,1 @@
+export type TimeTrackingMode = 'hours' | 'fromTo' | 'multiDay' | 'shifts';
