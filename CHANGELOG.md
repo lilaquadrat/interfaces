@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.57.0](https://github.com/lilaquadrat/interfaces/compare/v1.56.0...v1.57.0) (2026-10-29)
+
+
+### Features
+
+* **Shift:** add plan state and list plan name interfaces ([98e9446](https://github.com/lilaquadrat/interfaces/commit/98e9446858a1e9f8febdd0b371bb528f1ebf4122))
+* **Tracker:** add time tracking project and shift booking interfaces ([dd93c2d](https://github.com/lilaquadrat/interfaces/commit/dd93c2d24aa671745bea7b74362d8bb3d8eefe24))
+* **Tracker:** add tracker route params and query interfaces ([f48826a](https://github.com/lilaquadrat/interfaces/commit/f48826a761c7995258eb3aa2c70fdd921ee6af52))
+
 ## [1.56.0](https://github.com/lilaquadrat/interfaces/compare/v1.55.0...v1.56.0) (2026-10-21)
 
 
