@@ -13,6 +13,9 @@ export interface Cart {
         [key: string]: string
     }
 
+    prename?: string
+    name?: string
+
     modified?: Date
 
     checkoutUrl?: string

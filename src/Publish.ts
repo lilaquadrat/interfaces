@@ -46,5 +46,6 @@ export interface Publish {
 
     relatedData?: {
       list?: ObjectId
+      cart?: ObjectId
     }
   }

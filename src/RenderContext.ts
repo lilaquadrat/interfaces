@@ -1,16 +1,8 @@
-import {Content} from './Content';
+import {WorkingContext} from './WorkingContext';
 
-export interface RenderContext {
+export interface RenderContext extends WorkingContext {
   url?: string
-  data?: Content
-  layout?: Content
   title?: string
   description?: string
-  settings?: Record<string, unknown>
   translation?: Record<string, string>
-  tags?: string[]
-  app?: string
-  css?: string
-  cdn?: string
-  renderTarget?: 'pdf' | 'web'
 }
