@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/lilaquadrat/interfaces/compare/v1.57.0...v2.0.0) (2026-11-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* **interfaces:** Project.license is now string[] and Project.id is required;
+RenderContext now extends WorkingContext, so its endpoint, project and the
+per-render fields moved to the shared base.
+
+### Features
+
+* **interfaces:** add shared studio types and environment, project and render contracts ([6a3aaa5](https://github.com/lilaquadrat/interfaces/commit/6a3aaa5e073de00ca14dee8e10f0f6eeb7b2ddfb))
+
 ## [1.57.0](https://github.com/lilaquadrat/interfaces/compare/v1.56.0...v1.57.0) (2026-10-29)
 
 
