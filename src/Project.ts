@@ -4,6 +4,7 @@ import {ProjectHead} from "./ProjectHead"
 import {ProjectLogin} from "./ProjectLogin"
 import {ProjectPayment} from "./ProjectPayment"
 import {ProjectPwa} from "./ProjectPwa"
+import {ProjectDesign} from "./ProjectDesign"
 
 export interface Project {
 
@@ -19,6 +20,11 @@ export interface Project {
   attributes?: string[]
 
   features?: string[]
+
+  /**
+   * the design the project renders with: a real design document in (company, project, id).
+   */
+  design?: ProjectDesign
 
   auth0?: Auth0ProjectSettings
 
