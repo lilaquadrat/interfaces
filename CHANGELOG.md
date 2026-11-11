@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/lilaquadrat/interfaces/compare/v2.0.0...v2.1.0) (2026-11-11)
+
+
+### Features
+
+* **design:** address designs by id and name ([80c900d](https://github.com/lilaquadrat/interfaces/commit/80c900d7efec0fb24b3efc658c70545588e76423))
+
 ## [2.0.0](https://github.com/lilaquadrat/interfaces/compare/v1.57.0...v2.0.0) (2026-11-09)
 
 
